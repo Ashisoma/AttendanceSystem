@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('email')->unique();
             $table->string('registration_number')->unique();
+            $table->string('password');
             // Add more columns as needed for student information
             
             $table->timestamps();
